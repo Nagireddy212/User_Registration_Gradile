@@ -40,10 +40,22 @@ public class UserRegistration {
 
     }
 
+    public static void PasswordValidate() {
+        Scanner Pswd = new Scanner(System.in);
+        System.out.println("Please Enter your password: ");
+        String Password = Pswd.nextLine();
+        System.out.println(Password);
+        String PassExp = "^[a-zA-Z0-9]{8,}";
+        String result = (Pattern.matches(PassExp, Password)) ? "Successfully Valid" : "InValid";
+        System.out.println("Password is " +result+ " ");
+
+    }
+
     public static void main(String[] args) {
         FirstName();
         LastName();
         EmailValidation();
         PhoneNumberValidate();
+        PasswordValidate();
     }
 }
