@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bridgelabz.UserRegistrationTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2021-03-24T08:54:58" hostname="LAPTOP-743500D5" time="0.067">
+  <properties/>
+  <testcase name="PhoneNumber_CountryCodeIsNotGiven_ReturnSad()" classname="bridgelabz.UserRegistrationTest" time="0.026"/>
+  <testcase name="Password_LessThanEightChars_ReturnSad()" classname="bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="Password_NoCapitalCharIsGiven_ReturnSad()" classname="bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="Number_NumberLengthIsMoreThanTen_ReturnSad()" classname="bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="FirstName_FirstLetterNotCaps_ReturnSad()" classname="bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="FirstName_Valid_ReturnHappy()" classname="bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="Password_Valid_ReturnHappy()" classname="bridgelabz.UserRegistrationTest" time="0.002"/>
+  <testcase name="givenEmail_whenTLDIsNotGiven_ReturnSad()" classname="bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="Email_Valid_ReturnHappy()" classname="bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="Email_StartsWithSpecialChar_ReturnSad()" classname="bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="Password_NoNumberIsGiven_ReturnSad()" classname="bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="Password_NoSpecialCharIsGiven_ReturnSad()" classname="bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="Email_TwoSpecial_ReturnSad()" classname="bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="LastName_Valid_ReturnHappy()" classname="bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="LastName_LessThanThreeLetters_ReturnSad()" classname="bridgelabz.UserRegistrationTest" time="0.007"/>
+  <testcase name="LastName_FirstLetterNotCaps_ReturnSad()" classname="bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="PhoneNumber_AfterCountrySpaceNotGiven_ReturnSad()" classname="bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="FirstName_LessThanThreeLetters_ReturnSad()" classname="bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="Email_AtTheRateIsNotGiven_ReturnSad()" classname="bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="PhoneNumber_Valid_ReturnHappy()" classname="bridgelabz.UserRegistrationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
