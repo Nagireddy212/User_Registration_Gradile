@@ -45,7 +45,7 @@ public class UserRegistration {
         System.out.println("Please Enter your password: ");
         String Password = Pswd.nextLine();
         System.out.println(Password);
-        String PassExp = "^[A-z]{1}+[a-z]{5,}+[0-9]{1}";
+        String PassExp = "^[A-z]{1}+[a-z]{5,}+[0-9]{1,}+[@$!%*#?&]{1,}";
         String result = (Pattern.matches(PassExp, Password)) ? "Successfully Valid" : "InValid";
         System.out.println("Password is " +result+ " ");
 
