@@ -11,7 +11,16 @@ public class UserRegistration {
         String result = (Pattern.matches(Expression, name)) ? "Valid" : "InValid";
         System.out.println("First Name is " + result + " ");
     }
+    public static void LastName() {
+        Scanner scan = new Scanner(System.in);
+        String Expression = "^[A-Z]{1}+[a-z]{2,}";
+        System.out.println("Enter your first name: ");
+        String name = scan.next();
+        String result = (Pattern.matches(Expression, name)) ? "Valid" : "InValid";
+        System.out.println("Last Name is " + result + " ");
+    }
     public static void main(String[] args) {
         FirstName();
+        LastName();
     }
 }
