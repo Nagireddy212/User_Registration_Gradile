@@ -29,9 +29,21 @@ public class UserRegistration {
         System.out.println("Email " + result + " ");
     }
 
+    public static void PhoneNumberValidate() {
+        Scanner number = new Scanner(System.in);
+        System.out.println("Please Enter mobile number with country code: ");
+        String Number = number.nextLine();
+        System.out.println(Number);
+        String numberExp = "^[0-9]{2}+\\s+[0-9]{10}";
+        String result = (Pattern.matches(numberExp, Number)) ? "Successfully Valid" : "InValid";
+        System.out.println("Phone number is " +result+ " ");
+
+    }
+
     public static void main(String[] args) {
         FirstName();
         LastName();
         EmailValidation();
+        PhoneNumberValidate();
     }
 }
